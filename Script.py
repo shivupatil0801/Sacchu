@@ -211,14 +211,16 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 <b>╚══════════════════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
-<b>🏷 ᴛɪᴛʟᴇ : <a href={url}>{query}</a>
-🔆 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-📆 ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ : <a href={url}/releaseinfo>{year}</a>
-🌟 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10
-🎭 ɢᴇɴʀᴇꜱ : {genres}
+<b>🏷 Title</b>: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+☀️ Languages : <code>{languages}</code>
+📀 RunTime: {runtime} Minutes
+📆 Release Info : {release_date}
+🎛 Countries : <code>{countries}</code>
 
-💁 ʀᴇqᴜᴇꜱᴛᴇᴅ ʙy : {message.from_user.mention}
-💥 ꜰᴏʀᴡᴀʀᴅᴇᴅ ʙy : {message.chat.title}</b>"""
+Requested by : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
