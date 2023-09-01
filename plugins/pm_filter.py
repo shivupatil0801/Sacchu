@@ -272,7 +272,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
                 f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
-                show_alert=True,
+                show_alert=False,
             )
     except:
         pass
@@ -330,7 +330,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         if int(req) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
                 f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
-                show_alert=True,
+                show_alert=False,
             )
     except:
         pass
@@ -427,7 +427,7 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
                 f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
-                show_alert=True,
+                show_alert=False,
             )
     except:
         pass
@@ -493,7 +493,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         if int(req) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
                 f"⚠️ ʜᴇʟʟᴏ{query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,\nʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
-                show_alert=True,
+                show_alert=False,
             )
     except:
         pass
