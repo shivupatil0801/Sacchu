@@ -199,7 +199,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """**❍** <code>{caption}</code>
+    CAPTION = """<code>{caption}</code>
 
 <b>❍   {file_size}</b>""" 
 
