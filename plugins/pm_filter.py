@@ -1287,11 +1287,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘꜱ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
-                  ]]
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟷', url=f'https://t.me/+nDTaoJGRKJcxYmZl'),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟸', url=f'https://t.me/HK_Movies_Request'),
+                ],[
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟹', url=f'https://t.me/Thecinemacircle3'),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ 𝟺', url=f'https://t.me/Hari_Search')
+                ],[
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴜᴘʟᴏᴀᴅ ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/+63JiMC4lCjBjZDFl'),
+                    InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/TG_BOTS_UPDATE'),
+                ],[
+                    InlineKeyboardButton('™️ ᴘʀᴏᴍᴏᴛɪᴏɴ ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/+w08SirY7LFphODQ9'),
+                ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
