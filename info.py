@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '15671595'))
-API_HASH = environ.get('API_HASH', 'bb8f36f9c39a24c7f8b2acbc7ea8c60a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7617741335:AAHzr5ZzleCHNpW-ntiQnAJGjJUEqWJcIG8")
+API_ID = int(environ.get('API_ID', '25732091'))
+API_HASH = environ.get('API_HASH', 'e5544429fb84ed708ff338d0de7f9c70')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7467460112:AAFbttWB94wRgImwtoYTsxTEM0DqoD52xBc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,25 +43,25 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anikush8310:anikush8310@cluster0.bhrro.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://shivuhuded0801:0y09Zn5TOV9tgRhR@cluster0.ovr9zfj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Harikushal")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HariKushal123')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '45b6928d65d1c1dfc2d52d052d879b9b02dd7fe3')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+nDTaoJGRKJcxYmZl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+63JiMC4lCjBjZDFl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_Bots_Support/234')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Yvgvc0CZC4tiZDFl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Yvgvc0CZC4tiZDFl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+Yvgvc0CZC4tiZDFl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002119063158'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002664481386'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
