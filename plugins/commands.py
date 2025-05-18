@@ -386,7 +386,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴘʀᴇᴍɪᴜᴍ ʙᴏᴛ 🤖', url=f"https://telegram.me/HK_Filter_Bot?start") #Don't change anything without contacting me @LazyDeveloperr
+                      InlineKeyboardButton('ɪᴏɪɴ ʙᴀᴄᴋᴜᴘ 🔔', url=f"https://t.me/+9by-1RMg6Qo5NDJl") #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
@@ -443,7 +443,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('ᴄʜᴇᴄᴋ ᴘʀᴇᴍɪᴜᴍ ʙᴏᴛ 🤖', url=f"https://telegram.me/HK_Filter_Bot?start") #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('ɪᴏɪɴ ʙᴀᴄᴋᴜᴘ 🔔', url=f"https://t.me/+9by-1RMg6Qo5NDJl") #Don't change anything without contacting me @LazyDeveloperr
             ]
             ]
         )
